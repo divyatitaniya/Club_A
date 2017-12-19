@@ -25688,6 +25688,10 @@ page-home .pane-min-height {
   height: 8px;
 }
 
+page-home #arrow {
+  color: white;
+}
+
 page-home ion-title {
   text-align: center;
   color: white;
