@@ -10,14 +10,6 @@ module.exports = [
         "runs": true
     },
     {
-        "id": "cordova-plugin-device.device",
-        "file": "plugins/cordova-plugin-device/www/device.js",
-        "pluginId": "cordova-plugin-device",
-        "clobbers": [
-            "device"
-        ]
-    },
-    {
         "id": "cordova-plugin-splashscreen.SplashScreen",
         "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
         "pluginId": "cordova-plugin-splashscreen",
@@ -34,6 +26,14 @@ module.exports = [
         ]
     },
     {
+        "id": "cordova-plugin-device.device",
+        "file": "plugins/cordova-plugin-device/www/device.js",
+        "pluginId": "cordova-plugin-device",
+        "clobbers": [
+            "device"
+        ]
+    },
+    {
         "id": "com-sarriaroman-photoviewer.PhotoViewer",
         "file": "plugins/com-sarriaroman-photoviewer/www/PhotoViewer.js",
         "pluginId": "com-sarriaroman-photoviewer",
@@ -47,9 +47,9 @@ module.exports.metadata =
 {
     "ionic-plugin-keyboard": "2.2.1",
     "cordova-plugin-whitelist": "1.3.1",
-    "cordova-plugin-device": "1.1.4",
     "cordova-plugin-splashscreen": "4.0.3",
     "cordova-plugin-ionic-webview": "1.1.16",
+    "cordova-plugin-device": "1.1.7",
     "com-sarriaroman-photoviewer": "1.1.11"
 };
 // BOTTOM OF METADATA
